@@ -4,6 +4,6 @@
   (ok (var-set count (+ (var-get count) u1)))
 )
 
-(define-read-only (get-count)
+(define-read-only (get-count
   (var-get count)
 )
